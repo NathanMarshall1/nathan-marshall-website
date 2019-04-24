@@ -1,54 +1,65 @@
-import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
-
+import React, { Component } from "react";
+import { Grid, Cell } from "react-mdl";
 
 class Landing extends Component {
   render() {
-    return(
-      <div style={{width: '100%', margin: 'auto'}}>
+    return (
+      <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+              src="https://i.imgur.com/NGwzFFh.jpg"
               alt="avatar"
               className="avatar-img"
-              />
+            />
 
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Nathan Marshall</h1>
+              <p>
+                about me: this is summary yo my name is cory and this is my
+                story Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a type
+                specimen book. It has survived not only five centuries, but also
+                the leap into electronic typesetting, remaining essentially
+                unchanged.
+              </p>
+            </div>
 
-            <hr/>
+            <hr className="banner-hr" />
 
-          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+            <div className="banner-text">
+              <div className="social-links">
+                {/* LinkedIn */}
+                <a
+                  href="https://www.linkedin.com/in/nathan-marshall-45346b17b/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <p>LinkedIn</p>
+                </a>
 
-        <div className="social-links">
-
-          {/* LinkedIn */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-linkedin-square" aria-hidden="true" />
-          </a>
-
-          {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-github-square" aria-hidden="true" />
-          </a>
-
-          {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
-          </a>
-
-          {/* Youtube */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-youtube-square" aria-hidden="true" />
-          </a>
-
-        </div>
+                {/* Github */}
+                <a
+                  href="https://github.com/nmarshall1"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <p>Github</p>
+                </a>
+                <a
+                  href={process.env.PUBLIC_URL + "/resume.pdf"}
+                  style={{ cursor: "pointer" }}
+                >
+                  <p>Resume</p>
+                </a>
+              </div>
             </div>
           </Cell>
         </Grid>
       </div>
-    )
+    );
   }
 }
 
