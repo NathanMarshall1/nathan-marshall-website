@@ -4,6 +4,7 @@
 
 .landing-grid {
   background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/80/70/xMKnv5.jpg);
+  padding-bottom: 20px;
 }
 
 .projects-grid {
@@ -15,6 +16,16 @@
   background: #27221f;
   color: white;
   padding: 2em;
+}
+
+/* Experience Page css */
+.experience-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
 }
 
 /* contact page css */
@@ -62,7 +73,7 @@
 
 .avatar-img {
   height: 250px;
-  padding-top: 5em;
+  padding-top: 2em;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -109,6 +120,6 @@
   font-size: 20px;
   font-weight: bold;
   color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }

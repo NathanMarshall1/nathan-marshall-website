@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
+import { Grid, Cell, Navigation } from "react-mdl";
+import { Link } from "react-router-dom";
 
 class Landing extends Component {
   render() {

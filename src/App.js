@@ -8,37 +8,29 @@ class App extends Component {
   render() {
     return (
       <div className="demo-big-content">
-        <Layout>
+        <Layout
+          style={{
+            background:
+              "url(https://img.wallpapersafari.com/desktop/1920/1080/80/70/xMKnv5.jpg) center / cover"
+          }}
+        >
           <Header
             className="header-color"
+            transparent
             title={
               <Link style={{ textDecoration: "none", color: "white" }} to="/">
-                MyPortfolio
+                Nathan Marshall
               </Link>
             }
             scroll
           >
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
+              <Link to="/experience">Experience</Link>
+              <Link to="/education">Education</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>
           </Header>
-          <Drawer
-            title={
-              <Link style={{ textDecoration: "none", color: "black" }} to="/">
-                MyPortfolio
-              </Link>
-            }
-          >
-            <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
-            </Navigation>
-          </Drawer>
           <Content>
             <div className="page-content" />
             <Main />
