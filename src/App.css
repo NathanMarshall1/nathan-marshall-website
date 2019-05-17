@@ -11,6 +11,11 @@
   display: flex;
 }
 
+.experience-grid {
+  background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/80/70/xMKnv5.jpg);
+  padding-bottom: 20px;
+}
+
 /* Resume Page css */
 .resume-right-col {
   background: #27221f;
