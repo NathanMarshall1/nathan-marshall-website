@@ -11,7 +11,8 @@ class App extends Component {
         <Layout
           style={{
             background:
-              "url(https://img.wallpapersafari.com/desktop/1920/1080/80/70/xMKnv5.jpg) center / cover"
+              // "url(https://img.wallpapersafari.com/desktop/1920/1080/80/70/xMKnv5.jpg) center / cover"
+              "url(https://img.wallpapersafari.com/desktop/1920/1080/80/70/xMKnv5.jpg)"
           }}
         >
           <Header
@@ -27,6 +28,7 @@ class App extends Component {
             <Navigation>
               <Link to="/experience">Experience</Link>
               <Link to="/education">Education</Link>
+              <Link to="/skills">Skills</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>
