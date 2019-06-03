@@ -29,7 +29,6 @@ class App extends Component {
               <Link to="/experience">Experience</Link>
               <Link to="/education">Education</Link>
               <Link to="/skills">Skills</Link>
-              <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>
           </Header>

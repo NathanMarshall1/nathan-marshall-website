@@ -17,14 +17,11 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Nathan Marshall</h1>
               <p>
-                about me: this is summary yo my name is cory and this is my
-                story Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a type
-                specimen book. It has survived not only five centuries, but also
-                the leap into electronic typesetting, remaining essentially
-                unchanged.
+                Hi I'm Nathan! I'm passionate about software development and
+                really any sort of coding. I'm most skilled programming in Java
+                and C++. I have a moderate amount of experience in Python,
+                Javascript, and HTML/CSS. I have 2+ years of experience coding
+                for U.S. Naval Research Laboratory in Stennis Space Center.
               </p>
             </div>
 

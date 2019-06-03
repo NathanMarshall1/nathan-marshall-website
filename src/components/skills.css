@@ -1,5 +1,5 @@
-/* Experience Page css */
-.experience-body {
+/* Skills Page css */
+.skills-body {
   margin: auto;
   position: fixed;
   width: 80%;
@@ -8,48 +8,51 @@
   padding-top: 2em;
 }
 
-.experience-text {
+.skills-text {
   background-color: black;
   opacity: 0.8;
-  width: 65%;
+  width: 60%;
   margin: auto;
   border-radius: 10px;
   padding: 20px;
 }
 
-.experience-text h1 {
+.skills-text h1 {
   text-align: center;
   font-size: 45px;
   font-weight: bold;
   color: white;
+  margin-bottom: 0.1em;
 }
 
-.experience-text h2 {
+.skills-text h2 {
   text-align: center;
   font-size: 30px;
-  font-weight: bold;
   color: white;
   margin-top: 0.2em;
   margin-bottom: 0.2em;
 }
 
-.experience-hr {
+.skills-hr {
   border-top: 5px dotted white;
   width: 80%;
   margin: auto;
 }
 
-.experience-text p {
-  text-align: center;
-  font-size: 30px;
+.skills-text p {
+  text-align: left;
+  font-size: 25px;
   font-weight: bold;
   color: white;
+  margin-left: 2em;
 }
 
-.experience-text ul {
+.skills-text ul {
   font-size: 20px;
   font-weight: bold;
   color: white;
   list-style-type: circle;
+  margin-left: 2em;
 }
-/* Experience Page css */
+
+/* Skills Page css */

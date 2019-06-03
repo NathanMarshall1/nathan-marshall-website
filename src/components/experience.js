@@ -10,8 +10,8 @@ class Experience extends Component {
           <Cell col={12}>
             <div className="experience-text">
               <h1>U.S. Naval Research Laboratory</h1>
-              <p>Software Developer</p>
-              <p>2017-Present</p>
+              <h2>Software Developer</h2>
+              <h2>2017-Present</h2>
               <ul>
                 <li>
                   Java backend development for multiple web services. Designed
