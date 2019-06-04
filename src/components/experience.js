@@ -6,7 +6,7 @@ class Experience extends Component {
   render() {
     return (
       <div style={{ width: "100%" }}>
-        <Grid className="experience-grid">
+        <Grid>
           <Cell col={12}>
             <div className="experience-text">
               <h1>U.S. Naval Research Laboratory</h1>

@@ -6,7 +6,7 @@ class Education extends Component {
   render() {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
-        <Grid className="education-grid">
+        <Grid>
           <Cell col={12}>
             <div className="education-text">
               <h1>Bachelor of Science in Computer Science</h1>
