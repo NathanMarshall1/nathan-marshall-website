@@ -17,7 +17,7 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Nathan Marshall</h1>
               <p>
-                Hi I'm Nathan! I'm passionate about software development and
+                Hi I'm Nathan. I'm passionate about software development and
                 really any sort of coding. I'm most skilled programming in Java
                 and C++. I have a moderate amount of experience in Python,
                 Javascript, and HTML/CSS. I have 2+ years of experience coding
