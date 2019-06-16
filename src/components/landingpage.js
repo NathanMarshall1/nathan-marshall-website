@@ -47,7 +47,8 @@ class Landing extends Component {
                   <p>Github</p>
                 </a>
                 <a
-                  href={process.env.PUBLIC_URL + "/resume.pdf"}
+                  /*href={process.env.PUBLIC_URL + "/resume.pdf"}*/
+                  href="https://docs.google.com/document/d/10BvwMinXUZXYN345myCWFddosx0TW-0EZeKIKkNvV7s/edit?usp=sharing"
                   style={{ cursor: "pointer" }}
                 >
                   <p>Resume</p>
