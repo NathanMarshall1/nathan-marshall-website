@@ -8,11 +8,11 @@ class Landing extends Component {
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            {/* <img
-              src="https://i.imgur.com/NGwzFFh.jpg"
+            <img
+              src="https://lh3.googleusercontent.com/lXbvMSXgSn7usrja1lotEsRg983TkEEH3UDXEiUY8oGcEOeOKzL4fsR5ccwk6BWtwaRKYweOQRUjHjZNIXApLfVtW-cgRQtPg-GwVuLXTqYwSca1eHKrJz5atCO411aL-hNSJWPCb27E6-GJj-kq3Y5VYDgFNFfRo80pU-ForQNenA660OTsJw0eYuQae0AjnPlx0H0pRwyvx5S8MaqCOR7UeZSiWqXRsnUuZ8ocy8T7p-RlDF-WOGXt_LSwHsH7R2hNKcIyw27As6rz8gfWWSB01sXOsEGVl-CQzdXk5RCqZTUkeCiXWkav9EJO2pjUt9Z3_APc4g_yvpbkjgvmS1e6ft7Xtodp10MPiGUdDFcs8IppLt4KL6GeXx42jn1hRk815s-wIWkuiuDAXiPvnTTgXELzCi58Ji7K-VXTfCnfEytIQeSY4BKU9N80QHBHv5FjTGDag_8hXA742luwLnkGzLFA8y4FSw3W0HCGULwRomg-XlEuWzYBJa7Z7yFlsvZ2QDP5GUVS39FRqxa2eCJA_y9CqOKZjVW0v8wdcdcTbnqS62aWOoyOSfO4oaBtDC_l8SPaYgiL33rxPKACBxumYFsNcZfPDXs6AH0gVkXw4CwnJYvz5FM700HieTUHllrYwEqn3F1Qtel0tNpwutVq2KN1hwjWF7gBPtbpN5NVnpHUQ26XO_F5ZHdDlDvq0yZfEBX0Ws2LH9DMgWBYIRPL=w1415-h1885-no"
               alt="avatar"
               className="avatar-img"
-            /> */}
+            />
 
             <div className="banner-text">
               <h1>Nathan Marshall</h1>
