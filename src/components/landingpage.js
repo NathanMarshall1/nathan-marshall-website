@@ -17,11 +17,12 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Nathan Marshall</h1>
               <p>
-                Hi I'm Nathan. I'm passionate about software development and
-                really any sort of coding. I'm most skilled programming in Java
-                and C++. I have a moderate amount of experience in Python,
-                Javascript, and HTML/CSS. I have 2+ years of experience coding
-                for U.S. Naval Research Laboratory in Stennis Space Center.
+                Hi I’m Nathan! I’m a software developer with a passion for
+                coding, technology, and problem solving. For the past two years,
+                I’ve worked as a developer for U.S. Naval Research Lab at
+                Stennis Space Center, MS. My greatest strengths are building
+                RESTful Web services and coding in Java and C++. I’m moderately
+                experienced coding in Python, Javascript, and HTML/CSS.
               </p>
             </div>
 
