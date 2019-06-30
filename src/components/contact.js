@@ -25,7 +25,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-envelope" aria-hidden="true" />
-                    Nathan.R.Marshall@usm.edu
+                    NathanRobertMarshall@gmail.com
                   </ListItemContent>
                 </ListItem>
 
